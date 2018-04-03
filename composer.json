@@ -1,5 +1,5 @@
 {
-    "name": "vagrant/laravel-search",
+    "name": "tanmo/laravel-search",
     "description": "fields search package",
     "type": "laravel plugin",
     "require": {
