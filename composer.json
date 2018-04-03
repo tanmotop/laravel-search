@@ -18,5 +18,12 @@
             "Tanmo\\Search\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "Search": "Tanmo\\Search\\Facades\\Search"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
