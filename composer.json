@@ -1,0 +1,21 @@
+{
+    "name": "vagrant/laravel-search",
+    "description": "fields search package",
+    "type": "laravel plugin",
+    "require": {
+        "php": ">=7.0",
+        "laravel/laravel": "~5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tanmo",
+            "email": "410536770@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tanmo\\Search\\": "src/"
+        }
+    }
+}
