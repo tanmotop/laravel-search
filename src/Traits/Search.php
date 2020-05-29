@@ -23,7 +23,7 @@ trait Search
         $inputs = request()->all();
 
         foreach ($inputs as $key => $value) {
-            if (empty($value) ||
+            if ((empty($value) && !is_numeric($value)) ||
                 (is_array($value) && empty(array_filter($value))) ||
                 !isset($searcher[$key]) ||
                 $searcher->isIgnore($key)
